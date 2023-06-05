@@ -14,7 +14,7 @@ The dataset `make_circles` only has functionality to generate a binary class dat
 
 The dataset is split in an 80:20 split of training data to test data. The model validates using the test data during the training of the model.
 
-The labels used in the dataset are not one-hot encoded [0, 1, 2] and so in training, `sparce_categorical_crossentropy` is used in the loss function.
+The labels used in the dataset are not one-hot encoded [0, 1, 2] and so in training, `sparse_categorical_crossentropy` is used in the loss function.
 
 
 ## Evaluation
